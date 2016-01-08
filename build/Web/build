@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export APPDIR="$(dirname "$(readlink -f "$0")")"
+export APPNAME="epiphany"
+
+. ../../common/pacman_build.sh

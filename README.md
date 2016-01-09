@@ -8,4 +8,5 @@ Scripts for building some open-source apps that we include in the Eloquent Store
 
 - Audacity
 - Epiphany (GNOME Web)
+- Firefox
 - VLC

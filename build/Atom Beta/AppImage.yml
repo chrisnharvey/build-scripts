@@ -1,0 +1,9 @@
+name: Atom Beta
+description: Chrome-based text editor from GitHub - Beta
+
+base: 12.04
+
+build: ./build.sh
+
+require_build:
+    - wget

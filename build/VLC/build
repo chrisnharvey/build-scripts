@@ -1,6 +1,0 @@
-#!/bin/bash
-
-export APPDIR="$(dirname "$(readlink -f "$0")")"
-export APPNAME="vlc"
-
-. ../../common/pacman_build.sh

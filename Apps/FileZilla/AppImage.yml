@@ -1,5 +1,7 @@
 name: FileZilla
 
+base: 12.04
+
 repositories:
     - "ppa:ubuntu-toolchain-r/test"
 

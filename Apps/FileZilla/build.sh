@@ -15,8 +15,22 @@ cd wxWidgets-*
 make install
  
 cd ..
- 
+
+wget https://sourceforge.net/projects/filezilla/files/libfilezilla/0.5.3/libfilezilla-0.5.3.tar.bz2/download -O ./libfilezilla.tar.bz2
+
+tar xf libfilezilla.tar.bz2
+
+cd libfilezilla-*
+
+./configure --prefix=/mnt/appimager/build
+
+make install
+
+cd ..
+
 svn co https://svn.filezilla-project.org/svn/FileZilla3/trunk filezilla
+
+cd filezilla
 
 autoreconf -i #generate a configuration per system settings
 ./configure --prefix=/mnt/appimager/build

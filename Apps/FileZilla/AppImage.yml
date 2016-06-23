@@ -1,0 +1,15 @@
+name: FileZilla
+
+require_build:
+    - libgtk2.0-dev
+    - pkg-config
+    - subversion
+    - libgnutls-dev
+    - libidn2-0-dev
+    - gettext
+    - libdbus-c++-dev
+    - libperl-dev
+    - libtool
+    - autoconf
+    - automake
+    - make

@@ -1,0 +1,23 @@
+name: Filezilla
+description: Files and stuff
+
+base: 12.04
+
+build: ./build.sh
+
+require_build:
+    - wget
+    - bzip2
+    - make
+    - g++
+    - pkg-config
+    - libgtk2.0-dev
+    - subversion
+    - libgnutls-dev
+    - libidn2-0-dev
+    - gettext
+    - libdbus-c++-dev
+    - libperl-dev
+    - libtool
+    - autoconf
+    - automake

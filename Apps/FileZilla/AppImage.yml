@@ -10,6 +10,7 @@ require_build:
     - gcc-5
     - g++-5
     - libgtk2.0-dev
+    - libgmp-dev
     - pkg-config
     - subversion
     - libidn2-0-dev
@@ -20,3 +21,4 @@ require_build:
     - autoconf
     - automake
     - make
+    - xdg-utils

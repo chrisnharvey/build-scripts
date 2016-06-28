@@ -2,6 +2,8 @@ name: FileZilla
 
 base: 12.04
 
+build: ./build.sh
+
 repositories:
     - "ppa:ubuntu-toolchain-r/test"
 
